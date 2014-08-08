@@ -1,10 +1,10 @@
 /**
- * Creates the image fader effect.
+ * Creates the image slider effect.
  * It takes following parameter:
  * @params {Number} { timeout: value}
  **/
 $(function($){
-    $.fn.fader = function(vars) {        
+    $.fn.slider = function(vars) {        
     	var element     	= this; //The main div element that holds the images.
     	var timeOut     	= (vars.timeOut != undefined) ? vars.timeOut : 4000; //Timeout that has to be set (if not mentioned it takes default 4000
     	var currentElement  = null; //The current image element to fade.
