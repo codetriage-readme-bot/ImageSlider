@@ -40,3 +40,9 @@ The main usage of this library is as follows:
 			});
 		});
 	</script>
+
+
+
+
+There is sample silder effect created with background color and not images. You can find it here: http://jsfiddle.net/nagtan3/cdL1tekf/
+The above jsfiddle does not contain the images since jsfiddle requires me to upload a link to the images.
