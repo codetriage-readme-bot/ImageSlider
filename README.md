@@ -6,6 +6,7 @@ This javascript library is a simple image slider that slides the images with spe
 
 The main usage of this library is as follows:
 
+```html
 <h1>Simple Image Slider</h1>
 <div id="ssd_slider" class="ssd_slider">
     <div id="ssd_sliderContent" class="ssd_sliderContent">
@@ -33,13 +34,22 @@ The main usage of this library is as follows:
         <div class="clear ssd_sliderImage"></div>
     </div>
 </div>
+```
 
-
-
+On domready, using Jqueries functionality we can use:
+```javascript
+<script src="{{ STATIC_URL }}JS/imageslider.js" type="text/javascript" ></script>							
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.ssd_silderImage').hide();
+		$('#ssd_silder').slider({
+			timeOut: 6000 
+		});
+	});
+</script>
+```
 
 There is sample silder effect created with background color and not images. 
 You can find it here: 
 
-http://jsfiddle.net/nagtan3/cdL1tekf
-
-The above jsfiddle does not contain the images since jsfiddle requires me to upload a link to the images.
+http://jsfiddle.net/nagtan3/xtc8wu55/
