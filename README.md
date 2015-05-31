@@ -3,8 +3,9 @@ ImageSlider
 
 This javascript library is a simple image slider that slides the images with specified periodic time.
 
-
 The main usage of this library is as follows:
+
+Note: the "Images/1.jpg" means the folder with Images having "1.jpg" as an image.
 
 ```html
 <h1>Simple Image Slider</h1>
@@ -47,6 +48,35 @@ On domready, using Jqueries functionality we can use:
 		});
 	});
 </script>
+```
+
+I used the CSS as follows:
+
+```css
+div.ssd_silder {
+    -moz-box-shadow: 0 0 10px 5px #888;
+    -webkit-box-shadow: 0 0 10px 5px #888;
+    box-shadow: 0 0 10px 5px #888;
+}
+div.ssd_silderContent, div.ssd_silderImage {
+    margin:0px;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    padding:0px;
+    height:100%;
+    width:100%;
+}
+div.ssd_image {
+    margin:0px;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height:450px;
+    width:100%;
+    background-size: 100% 100%;
+}
 ```
 
 There is sample silder effect created with background color and not images. 
